@@ -77,7 +77,6 @@ WSGI_APPLICATION = 'myoatGit.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'deqi3u290fj06', #Database in django_on_heroku
         'USER': 'yhwvkvqkiszdxl',
@@ -86,7 +85,7 @@ DATABASES = {
         'PORT': '5432',
         'CONN_MAX_AGE' : 500,
 
-        
+
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
 
